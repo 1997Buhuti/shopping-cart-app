@@ -1,9 +1,9 @@
 import React from 'react';
+import './App.scss';
+import ShoppingCart from "./Components/ShoppingCart";
 function App() {
   return (
-    <div className="App">
-     <h1>Shopping Cart Application</h1>
-    </div>
+        <ShoppingCart/>
   );
 }
 

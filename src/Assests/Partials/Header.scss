@@ -1,0 +1,17 @@
+.header{
+    .top-nav{
+      color: black;
+      .nav-items{
+        color: black;
+        .Contact,.Delivery,.user-account{
+          color: black;
+        }
+        .login-btn{
+          color: green;
+          &:hover{
+           text-decoration: none;
+          }
+        }
+      }
+    }
+}
