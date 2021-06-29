@@ -1,4 +1,5 @@
 @import "BreakPoints";
+@import "Colors";
 .header{
     .top-nav{
       color: black;
@@ -15,7 +16,37 @@
         }
       }
     }
+  .mid-nav-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    .mid-nav-Logo{
+      text-align: left;
+      color: $theme-green;
+      font-family: "Montserrat", "sans-serif";
+      font-weight: 500;
+    }
+    .checkout-tab{
+      .cart-button{
+        color: $theme-green;
+        cursor: pointer;
+        .cart-icon{
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+        }
+
+      }
+      .checkout-button{
+
+      }
+    }
+  }
+
 }
+
+
+
+
 
 @media only screen and (max-width: $medium) {
   .header{
