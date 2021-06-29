@@ -11,21 +11,21 @@ const TopNav: React.FC=()=>{
             </Col>
 
             <Col xs={6} className="px-0 top-nav-container" style={{border:'1px solid green'}}>
-                <Navbar expand="lg" className="top-nav">
+                <Navbar expand="lg" className="top-nav" style={{border:'3px solid pink'}}>
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                             <Nav className='nav-items -lg-0 p-lg-0 pl-lg-3'>
                                 <Nav.Link eventKey="1" className='Contact'>
-                                    <Phone/>
+                                    <Phone className="icons"/>
                                     <span className='header-menu pl-2'>+94779 510 260</span>
                                 </Nav.Link>
                                 <Nav.Link eventKey="2" className='Delivery'>
-                                    <Truck/>
+                                    <Truck className="icons"/>
                                     <span className='header-menu pl-2'>Delivery Areas</span>
                                 </Nav.Link>
                                 <Nav.Link eventKey="3" className='user-account pl-lg-2 '>
-                                    <User/>
+                                    <User className="icons"/>
                                     <span className='header-menu pl-lg-2'>My Account</span>
                                 </Nav.Link>
                                 <Nav.Link eventKey="4" className='pt-lg-1 p-lg-0 '>

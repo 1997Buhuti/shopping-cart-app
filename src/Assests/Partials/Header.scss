@@ -1,3 +1,4 @@
+@import "BreakPoints";
 .header{
     .top-nav{
       color: black;
@@ -14,4 +15,32 @@
         }
       }
     }
+}
+
+@media only screen and (max-width: $medium) {
+  .header{
+    .top-nav-container{
+      .top-nav{
+        text-align: right;
+        color: black;
+        font-size: small;
+        .nav-items{
+          color: black;
+          .icons{
+            width: 20px;
+            height: 20px;
+          }
+          .Contact,.Delivery,.user-account{
+            color: black;
+          }
+          .login-btn{
+            color: green;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
 }
