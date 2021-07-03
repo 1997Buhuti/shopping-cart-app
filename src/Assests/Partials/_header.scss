@@ -1,5 +1,5 @@
-@import "BreakPoints";
-@import "Colors";
+@import "breakPoints";
+@import "colors";
 .header{
     .top-nav{
       color: black;
@@ -39,6 +39,14 @@
       .checkout-button{
 
       }
+    }
+  }
+
+  .menu-bar{
+    font-size: 1.1em;
+    .category-drop-down{
+      border: 1px solid $theme-green;
+        border-radius: 7px;
     }
   }
 
