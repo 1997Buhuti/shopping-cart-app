@@ -1,0 +1,31 @@
+@import "breakPoints";
+
+.ProductArea{
+  .search-bar-container{
+      .search-bar-input{
+       border: 0;
+       .basic-addon1{
+         background-color: white;
+         cursor: pointer;
+       }
+      }
+  }
+  .demo-msg-container{
+    background-color: #D1ECF1;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: $medium) {
+  .ProductArea{
+    .search-bar-container{
+      .search-bar-input{
+        font-size: small;
+        }
+      }
+    }
+    .demo-msg-container{
+      background-color: #D1ECF1;
+      border-radius: 10px;
+    }
+  }
+

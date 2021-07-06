@@ -1,0 +1,134 @@
+@import "breakPoints";
+
+.img-container{
+  .image-caption{
+    color: white;
+    position: absolute;
+    bottom: 13rem;
+    left: 57rem;
+    h3 {
+      font-size: 2.8em;
+      font-family:  'Knewave', cursive;
+      color: #4A8601;
+    }
+    span {
+      font-size: 1.2em;
+      color: black;
+    }
+    .shop-now-btn{
+      margin-top: 0.6em;
+      border-radius: 10px;
+      font-size: 1.2em;
+      background-color: white;
+      &:hover{
+        background-color: white;
+      }
+    }
+    .img-leaves{
+      width: 30%;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: $small) {
+  .img-container{
+    font-size: 0.5em;
+    .image-caption{
+      bottom: 1rem;
+      left: 14rem;
+      h3 {
+        font-size: 1.2em;
+        font-family:  'Knewave', cursive;
+        color: #4A8601;
+      }
+      span {
+        color: black;
+      }
+      .shop-now-btn{
+        margin-top: 0.1em;
+        border-radius: 10px;
+        font-size: .8em;
+        background-color: white;
+        &:hover{
+          background-color: white;
+        }
+      }
+      .img-leaves{
+        width: 20%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $medium) {
+  .img-container{
+    font-size: 0.8em;
+    .image-caption{
+      bottom: 5rem;
+      left: 25rem;
+      h3 {
+        font-size: 1.9em;
+        font-family:  'Knewave', cursive;
+        color: #4A8601;
+      }
+      span {
+        color: black;
+      }
+      .shop-now-btn{
+        margin-top: 0.1em;
+        border-radius: 10px;
+        font-size: 1em;
+        background-color: white;
+        &:hover{
+          background-color: white;
+        }
+      }
+      .img-leaves{
+        width: 20%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:$large) {
+  .img-container{
+    font-size: 1.3em;
+    .image-caption{
+      bottom: 7rem;
+      left:33rem;
+      h3 {
+        font-size: 1.9em;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:$X-large) {
+  .img-container{
+    font-size: 1.5em;
+    .image-caption{
+      bottom: 12rem;
+      left:58rem;
+      h3 {
+        font-size: 2.3em;
+      }
+    }
+    .img-leaves{
+      width: 30%;
+      height: auto;
+    }
+  }
+}
+@media only screen and (min-width:2000px) {
+  .img-container{
+    .image-caption{
+      .img-leaves{
+        width: 30%;
+        height: auto;
+      }
+    }
+  }
+}

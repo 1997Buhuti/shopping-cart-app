@@ -6,7 +6,7 @@ import MenuBar from "./MenuBar";
 
 const Header: React.FC=()=>{
     return(
-        <Row className="header" style={{border:'1px solid brown'}}>
+        <Row className="header">
             <Col xs={12} className="px-0 text-center">
                 <TopNav/>
             </Col>

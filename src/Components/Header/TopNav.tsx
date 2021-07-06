@@ -3,8 +3,8 @@ import {Button, Col, Container, Nav, Navbar, Row} from "react-bootstrap";
 import {Phone, Truck, User} from 'react-feather';
 const TopNav: React.FC=()=>{
     return(
-        <Row className="mx-0" style={{width:'100%'}}>
-            <Col  xs={{ span: 6, offset: 6}} className="px-0 top-nav-container">
+        <Row className="mx-0" style={{width:'100%',border:'1px solid red'}}>
+            <Col  xs={{ span: 10, offset: 1}} lg={{ span: 10, offset: 2}} xl={{ span: 6, offset: 6}} className="px-0 top-nav-container" style={{border:'3px solid purple'}}>
                 <Navbar expand="sm" className="top-nav float-right">
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -4,9 +4,9 @@ import HomePage from "./home/HomePage";
 
 const ShoppingCart: React.FC=()=>{
     return(
-        <Container fluid style={{border:'4px solid Red'}}>
-            <Row style={{border:'4px solid pink'}}>
-               <Col className="px-0" xs={12} style={{border:'4px solid green'}}>
+        <Container fluid>
+            <Row>
+               <Col className="px-0" xs={12}>
                    <HomePage/>
                </Col>
             </Row>
