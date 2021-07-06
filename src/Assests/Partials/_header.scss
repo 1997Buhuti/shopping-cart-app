@@ -83,6 +83,9 @@
     }
 
     .mid-nav-container{
+      h1{
+        font-size: 1.5em;
+      }
       .mid-nav-Logo{
       }
       .checkout-tab{
@@ -100,4 +103,30 @@
       }
     }
   }
+
+  .menu-bar {
+    font-size: 0.7em;
+  }
 }
+
+@media only screen and (max-width: $large) {
+  .header {
+    .top-nav-container {
+      .top-nav {
+        text-align: right;
+        color: black;
+        font-size: x-small;
+
+        .nav-items {
+          .icons {
+            width: 15px;
+            height: 15px;
+          }
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
