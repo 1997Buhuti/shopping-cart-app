@@ -1,0 +1,53 @@
+@import "colors";
+@import "breakpoints";
+.Footer {
+  .footer-header {
+    padding-top: 5px;
+    padding-bottom: 0;
+    color: white;
+    background-color: #033213;
+  }
+
+  .footer-body {
+    p{
+      padding-top: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    padding-top: 10px;
+    padding-bottom: 0;
+    color: white;
+    background-color: #0d6910;
+
+    .media-icons{
+      cursor: pointer;
+    }
+  }
+
+  .footer-bottom {
+    padding-top: 5px;
+    padding-bottom: 0;
+    background-color:#48b14b;
+  }
+
+}
+
+@media screen and (max-width: $medium) {
+  .Footer {
+    .footer-header {
+      h3{
+        font-size: small;
+      }
+
+    }
+
+    .footer-body {
+      font-size: x-small;
+    }
+
+    .footer-bottom {
+      font-size: x-small;
+    }
+  }
+}

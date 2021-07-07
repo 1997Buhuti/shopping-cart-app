@@ -3,6 +3,7 @@ import {Col, Row} from "react-bootstrap";
 import Header from "../Header/Header";
 import WelcomeIMG from "../Welcome/WelcomeIMG";
 import ProductArea from "../ProductArea/ProductArea";
+import Footer from "../Footer/Footer";
 
 const HomePage: React.FC=()=>{
     return(
@@ -19,8 +20,12 @@ const HomePage: React.FC=()=>{
                     <ProductArea/>
                 </Col>
 
-                <Col xs={12} style={{border:'1px solid yellow'}}>
-                    <h2>Footer</h2>
+                <Col xs={12} className="pt-5 text-center pb-5">
+                    <h1>Product List</h1>
+                </Col>
+
+                <Col className="px-0" xs={12} style={{border:'1px solid yellow'}}>
+                    <Footer/>
                 </Col>
             </Row>
     )
