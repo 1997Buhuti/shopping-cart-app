@@ -6,7 +6,7 @@ const CategoryItem:React.FC=()=>{
 
     return(
         <Row>
-            <Col xs={12} className="single-category mx-2 pl-2 pr-2 pt-1">
+            <Col xs={12} className="single-category">
                 <Image className="category-1" src={Grocery}/>
                 <b>Grocery</b>
             </Col>

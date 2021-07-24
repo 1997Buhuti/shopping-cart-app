@@ -1,0 +1,17 @@
+@import "breakPoints";
+@import "colors";
+
+.product-list-container{
+  .product-container{
+    border: 1px solid black ;
+    border-radius: 5px;
+    p{
+      font-size: .9em;
+    }
+    Button{
+      width: 75%;
+      font-size: .7em;
+      border-radius: 1.5em;
+    }
+  }
+}

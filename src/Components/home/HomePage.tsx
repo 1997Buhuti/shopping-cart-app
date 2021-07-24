@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import WelcomeIMG from "../Welcome/WelcomeIMG";
 import ProductArea from "../ProductArea/ProductArea";
 import Footer from "../Footer/Footer";
+import ProductLsit from "../ProductArea/ProductList/ProductList";
 
 const HomePage: React.FC=()=>{
     return(
@@ -16,18 +17,18 @@ const HomePage: React.FC=()=>{
                     <WelcomeIMG/>
                 </Col>
 
-                <Col xs={12}>
+                <Col xs={12}  md={{ span: 10, offset:1}}>
                     <ProductArea/>
                 </Col>
 
-                <Col xs={12} className="pt-5 text-center pb-5">
-                    <h1>Product List</h1>
+                <Col xs={12} className="pt-5 text-center pb-5 px-5" md={{ span: 10, offset:1}} >
+                    <ProductLsit/>
                 </Col>
 
-                <Col className="px-0" xs={12} style={{border:'1px solid yellow'}}>
+                <Col className="px-0" xs={12}>
                     <Footer/>
                 </Col>
             </Row>
     )
 }
-export default HomePage;
+export default HomePage
