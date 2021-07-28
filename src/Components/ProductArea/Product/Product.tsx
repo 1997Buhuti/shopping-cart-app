@@ -12,8 +12,8 @@ const Product: React.FC=()=>{
             </Col>
             <Col xs={12}>
                 <Row>
-                    <Col xs={6}>
-                        <p>striketrough text</p>
+                    <Col xs={6} className="discount-text">
+                        <p>30</p>
                     </Col>
                     <Col xs={6}>
                         <p>RS 350</p>
