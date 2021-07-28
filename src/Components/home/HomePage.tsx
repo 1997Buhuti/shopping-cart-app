@@ -20,11 +20,7 @@ const HomePage: React.FC=()=>{
                 <Col xs={12}  md={{ span: 10, offset:1}}>
                     <ProductArea/>
                 </Col>
-
-                <Col xs={12} className="pt-5 text-center pb-5 px-5" md={{ span: 10, offset:1}} >
                     <ProductLsit/>
-                </Col>
-
                 <Col className="px-0" xs={12}>
                     <Footer/>
                 </Col>
