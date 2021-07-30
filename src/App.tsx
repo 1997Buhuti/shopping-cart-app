@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.scss';
 import ShoppingCart from "./Components/ShoppingCart";
+import Backend from "./DB Test/Backend";
 function App() {
   return (
-        <ShoppingCart/>
+      <ShoppingCart/>
+      /*<Backend/> */
   );
 }
 
