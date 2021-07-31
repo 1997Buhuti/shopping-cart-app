@@ -3,7 +3,7 @@ import {Button, Col, Form, FormControl, Image, Row} from "react-bootstrap";
 import carrots  from '../../../Assests/Images/products/carrots.png';
 const Product: React.FC=()=>{
     return(
-        <Col  xs={6} sm={6} lg={3} md={4} xl={3} className="product-container mx-xl-3 my-xl-3">
+        <Col  xs={6} sm={6} lg={3} md={4} xl={3} className="product-container mx-xl-3 my-3">
             <Row>
                 <Col className="product-img" xs={12}>
                     <Image src={carrots} fluid/>

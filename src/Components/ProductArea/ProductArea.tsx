@@ -9,13 +9,11 @@ const ProductArea: React.FC=()=>{
           <Col xs={12} md={{ span: 8, offset: 2 }} lg={{ span: 4, offset: 4 }}>
               <SearchBar/>
           </Col>
-            <Col xs={12} className=" demo-msg-container mt-3 pt-3" md={{ span: 10, offset: 1 }}>
+            <Col xs={12} className=" demo-msg-container mt-3 pt-3">
                 <p className="demo-msg">*Products listed here are demo purpose only.
                     They are not available for sale. <CloseButton/></p>
             </Col>
-            <Col xs={12} className="products-category-container mt-3 pt-3">
                 <CategoryList/>
-            </Col>
         </Row>
     )
 }
